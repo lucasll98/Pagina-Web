@@ -3,6 +3,11 @@
     font-family: 'ChirpExtended', sans-serif;
     font-size: 18px;
 }
+*::selection{
+    background: black;
+    color: lightgray; 
+
+}
 
 .header{
     position: fixed;
@@ -57,11 +62,15 @@
     background: rgb(159, 179, 186);
     padding: center;
     text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
 }
 
 .texto{
     margin-top: 60px;
+    margin-bottom: 100px;
 }
+
 
 h1{
     font-size: 48px;
