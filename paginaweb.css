@@ -1,4 +1,72 @@
 *{
-    background: rgb(142, 167, 175);
+    background: rgb(168, 179, 184);
     font-family: 'ChirpExtended', sans-serif;
+    font-size: 18px;
 }
+
+.header{
+    position: fixed;
+    top: 0;
+    background: rgb(159, 179, 186);
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.itemHeader{
+
+    display: flex;
+    justify-content: center;
+    background: rgb(159, 179, 186);
+    margin: auto;
+    cursor: pointer;
+    height: 80px;
+    width: 140px;
+
+    transition: all 0.7s;
+}
+.textoCaja{
+    margin: auto;
+    background: rgb(159, 179, 186);
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+
+    transition: all 0.7s;
+
+}
+
+.itemHeader:hover, .textoCaja:hover{
+    background: lightgrey;
+}
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    background: rgb(159, 179, 186);
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: flex-start;
+}
+.itemFooter{
+    background: rgb(159, 179, 186);
+    padding: center;
+    text-align: center;
+}
+
+.texto{
+    margin-top: 60px;
+}
+
+h1{
+    font-size: 48px;
+    margin-left: 45%;
+    margin-top: 120px;
+}
+
+
