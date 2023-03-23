@@ -11,6 +11,7 @@
 
 body{
     margin-left: 0;
+    margin-right: 0;
 }
 
 .header{
@@ -67,7 +68,7 @@ body{
     padding: center;
     text-align: center;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 8px;
     margin-left: 10px;
 }
 
@@ -77,12 +78,6 @@ body{
     margin-left: 20px;
 }
 
-
-h1{
-    font-size: 48px;
-    margin-left: 45%;
-    margin-top: 120px;
-}
 
 a{
     text-decoration: none;
@@ -103,4 +98,58 @@ a:visited{
 
 a:active{
     color: white;
+}
+
+input{
+    margin-top: 8px;
+    border: solid black 2px;
+    margin-left: 720px;
+    background: rgb(206, 206, 206);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    transition: all 0.7s;
+}
+input:hover{
+    background: white;
+}
+input::placeholder{
+    font-size: 14px;
+    color: grey;
+}
+
+
+.la-twitter,.la-instagram{
+   font-size: 30px;
+   background: rgb(159, 179, 186);
+   cursor: pointer;
+   margin-top: 13px;
+   margin-right: 8px;
+   
+
+
+   transition: all 0.5s;
+}
+
+.la-twitter:hover,.la-instagram:hover{
+    color: lightgrey; 
+
+}
+
+.imagenFondo{
+    background-image: url(https://media.istockphoto.com/id/1193878242/vector/minimal-geometric-blue-light-background-abstract-design.jpg?s=612x612&w=0&k=20&c=jzOG9v-KxIKHgfqzkNNHErqNilQ77X51css7n9oBcqw=);
+    display: flex;
+    margin-top: 80.5px;
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+
+h1{
+    align-self: center;
+    font-size: 48px;
+    background: none;
 }
