@@ -14,13 +14,22 @@
 </head>
 <body>
 
-    <div class="imagenFondo">
-        <h1 id="inicio">Título</h1>
+    <div class="imagenFondo" id="inicio" >
+        
+        
+        <div class="contenedor">
+            <h1  class="intemsContenedor">Bienvenido</h1>
+            <h2 class="intemsContenedor">Iniciar Sesion</h3>
+            <input type="text" placeholder="Ingrese usuario" class="intemsContenedor inputs" class="inputs" id="usuario">
+            <input type="password" placeholder="Ingrese contraseña" class="intemsContenedor inputs" class="inputs" id="contra">
+            <input type="button" class="botoncito" onclick="iniciarSesion()" >
+        </div>
+        
     </div>
 
     <div class="header">
 
-        <div class="itemHeader" > <p class="textoCaja" >Caja 1</p> </div>
+        <div class="itemHeader" > <p class="textoCaja" >Caja 1</p>  </div>
         <div class="itemHeader"> <p class="textoCaja" >Caja 2</p> </div>
         <div class="itemHeader"> <p class="textoCaja" >Caja 3</p> </div>
         <div class="itemHeader"> <p class="textoCaja" >Caja 4</p> </div>
@@ -39,7 +48,8 @@
         
         <i class="lab la-twitter" onclick="enlaceTwitter()"></i>
         <i class="lab la-instagram" onclick="enlaceIg()"></i>
-        <div class="itemFooter"> <input type="text" placeholder="Comentarios"></div>
+        <div class="itemFooter"> <input type="text" placeholder="Enviar comentarios" id="comentarios" onclick="comentarios()" ></div>
+        <div class="itemFooter"> <input type="submit" class="boton" ></div>
 
     </div>
     

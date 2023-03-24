@@ -61,7 +61,7 @@ body{
     display: flex;
     height: 60px;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .itemFooter{
     background: rgb(159, 179, 186);
@@ -70,6 +70,7 @@ body{
     cursor: pointer;
     margin-right: 8px;
     margin-left: 10px;
+    
 }
 
 .texto{
@@ -101,17 +102,21 @@ a:active{
 }
 
 input{
-    margin-top: 8px;
+    margin-top: 10px;
     border: solid black 2px;
+    border-radius: 5px;
     margin-left: 720px;
     background: rgb(206, 206, 206);
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 14px;
 
     transition: all 0.7s;
 }
 input:hover{
     background: white;
+    
+
 }
 input::placeholder{
     font-size: 14px;
@@ -153,3 +158,58 @@ h1{
     font-size: 48px;
     background: none;
 }
+
+.boton,.botoncito{
+    margin-left: 0;
+    margin-top: 28px;
+    height: 20px;
+    width: 40px;
+    font-size: 8px;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    border: black solid 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: pointer;
+}
+
+
+.contenedor{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 60px;
+    
+}
+h2{
+    background: transparent;
+}
+
+.intemsContenedor{
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.inputs{
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    border: solid black 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.inputs::placeholder{
+    color: black;
+}
+
+
+
+
