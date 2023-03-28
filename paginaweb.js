@@ -21,3 +21,28 @@ function iniciarSesion(){
 
     console.log("Usuario: " , usuario + ". Contraseña: " , contra)
 }
+
+
+function inicio(){
+
+    location.href = "paginaweb.html";
+
+}
+
+function miCuenta(){
+
+    location.href = "miCuenta.html";
+
+}
+
+function peliculas(){
+
+    location.href = "peliculas.html";
+
+}
+
+function nosotros(){
+
+    location.href = "nosotros.html";
+
+}

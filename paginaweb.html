@@ -10,7 +10,7 @@
     <script src="paginaweb.js"></script>
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     
-    <title>Pagina web</title>
+    <title>Pagina Web</title>
 </head>
 <body>
 
@@ -20,7 +20,7 @@
         <div class="contenedor">
             <h1  class="intemsContenedor">Bienvenido</h1>
             <h2 class="intemsContenedor">Iniciar Sesion</h3>
-            <input type="text" placeholder="Ingrese usuario" class="intemsContenedor inputs" class="inputs" id="usuario">
+            <input type="text" placeholder="Ingrese usuario" class="intemsContenedor inputs" class="inputs" id="usuario">   
             <input type="password" placeholder="Ingrese contraseña" class="intemsContenedor inputs" class="inputs" id="contra">
             <input type="button" class="botoncito" onclick="iniciarSesion()" >
         </div>
@@ -29,10 +29,10 @@
 
     <div class="header">
 
-        <div class="itemHeader" > <p class="textoCaja" >Caja 1</p>  </div>
-        <div class="itemHeader"> <p class="textoCaja" >Caja 2</p> </div>
-        <div class="itemHeader"> <p class="textoCaja" >Caja 3</p> </div>
-        <div class="itemHeader"> <p class="textoCaja" >Caja 4</p> </div>
+        <div class="itemHeader" onclick="inicio()" > Inicio  </div>
+        <div class="itemHeader" onclick="miCuenta()"> Mi Cuenta</div>
+        <div class="itemHeader" onclick="peliculas()"> Peliculas</div>
+        <div class="itemHeader" onclick="nosotros()"> Sobre Nosotros </div>
 
     </div>
 
@@ -42,14 +42,16 @@
 
     </div>
 
+    
+
     <div class="footer">
 
         <div class="itemFooter"> <p class="itemFooter"> Redes sociales:</p></div>
         
         <i class="lab la-twitter" onclick="enlaceTwitter()"></i>
         <i class="lab la-instagram" onclick="enlaceIg()"></i>
-        <div class="itemFooter"> <input type="text" placeholder="Enviar comentarios" id="comentarios" onclick="comentarios()" ></div>
-        <div class="itemFooter"> <input type="submit" class="boton" ></div>
+        <div class="itemFooter"> <input type="text" placeholder="Enviar comentarios" id="comentarios"  ></div>
+        <div class="itemFooter"> <input type="submit" class="boton" onclick="comentarios()" ></div>
 
     </div>
     

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/chirp-2" rel="stylesheet">
+    <link rel="stylesheet" href="paginaweb.css">
+    <link rel="shortcut icon" href="C:\Users\Usuario\Downloads\web.png">
+    <script src="paginaweb.js"></script>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  
+    <title>Pagina Web</title>
+</head>
+<body>
+
+    <div class="header">
+
+        <div class="itemHeader" onclick="inicio()" > Inicio  </div>
+        <div class="itemHeader" onclick="miCuenta()"> Mi Cuenta</div>
+        <div class="itemHeader" onclick="peliculas()"> Peliculas</div>
+        <div class="itemHeader" onclick="nosotros()"> Sobre Nosotros </div>
+
+    </div>
+
+    <h1 class="peliculasTitulo">Películas disponibles.</h2>
+    <h2 class="subtitulo">Seleccione la película.</h3>
+
+    <div class="contenedorGaleria">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/The_Man_Who_Shot_Liberty_Valance_%281962_poster%29.jpg" alt="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/It%27s_a_Wonderful_Life_%281946_poster%29.jpeg" alt="">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_849311-MLA52604231932_112022-O.jpg" alt="">
+        <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71-ThYbuqcL.jpg" alt="">
+        <img src="https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg" alt="">
+        <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61s6okUC3GL._AC_SY606_.jpg" alt="">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_626730-MLA32531484373_102019-O.jpg" alt="">
+        <img src="https://assets.mubicdn.net/images/notebook/post_images/20573/images-w1400.jpg?1454676232" alt="">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_655748-MLA50364230761_062022-O.jpg" alt="" >
+     </div>
+
+
+    <div class="footer">
+
+        <div class="itemFooter"> <p class="itemFooter"> Redes sociales:</p></div>
+        
+        <i class="lab la-twitter" onclick="enlaceTwitter()"></i>
+        <i class="lab la-instagram" onclick="enlaceIg()"></i>
+        <div class="itemFooter"> <input type="text" placeholder="Enviar comentarios" id="comentarios"  ></div>
+        <div class="itemFooter"> <input type="submit" class="boton" onclick="comentarios()" ></div>
+
+    </div>
+</body>
+</html>
